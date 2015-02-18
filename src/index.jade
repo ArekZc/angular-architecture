@@ -1,0 +1,10 @@
+extends ./app/views/_layout.jade
+
+block body
+    <!--[if lt IE 10]>
+    p.browserhappy
+        | You are using <strong>outdated</strong> browser.
+        | Please <a href="http://browsehappy.com/">upgrade your browser</a>
+        | to improve your experience
+    <![endif]>
+    section(ng-view)

@@ -1,0 +1,43 @@
+{
+  "name": "stylesheet",
+  "version": "0.0.0",
+  "authors": [
+    "ArekZc <arekzc@gmail.com>"
+  ],
+  "moduleType": [
+    "es6"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.11",
+    "bootstrap-sass-official": "~3.3.3",
+    "angular-ui-router": "~0.2.13",
+    "angular-strap": "~2.1.6"
+  },
+  "overrides": {
+    "jquery": {
+      "main": []
+    },
+    "bootstrap-sass-official": {
+      "main": []
+    },
+    "bootstrap": {
+      "main": []
+    },
+    "angular-strap": {
+      "main": [
+        "dist/angular-strap.js"
+      ]
+    }
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.3.12"
+  }
+}
